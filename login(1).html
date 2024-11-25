@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>澳門城市大學 - 中央認證系統</title>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <link rel="icon" href="https://login.cityu.edu.mo/cas/images/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <script src="login.java"></script>
+</head>
+<body id="cas">
+  <div id="container">
+    <div id="content">
+      <div class="box" id="login">
+        <form id="fm1" action="file:///C:/Users/%E7%8E%8B%E5%A9%A7/Desktop/%E6%96%B0%E5%BB%BA%20BMP%20%E5%9B%BE%E5%83%8F.html" method="post">
+          <div class="logo"></div>
+          <section class="row">
+            <label for="username">Username(Teacher No./Student No.):
+              <span id="username-warning" style="display:none;">username is required</span>
+            </label>
+            <input id="username" name="username" class="required" tabindex="1" accesskey="e" type="text" value=""size="25" autocomplete="off" />
+          </section>
+
+          <section class="row">
+            <label for="password">Password(Same as URP platform):
+              <span id="password-warning" style="display:none;">password is required</span>
+            </label>
+
+            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value=""size="25" autocomplete="off" />
+          </section>
+
+          <section class="row btn-row">
+            <input class="btn-submit" id="submit" value="LOGIN" type="submit" />
+          </section>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
